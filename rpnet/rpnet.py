@@ -34,7 +34,8 @@ ap.add_argument("-w", "--writeFile", default='fh02.out',
                 help="file for output")
 args = vars(ap.parse_args())
 
-wR2Path = './wR2/wR2.pth2'
+#wR2Path = './wR2/wR2.pth2'  这是作者写的，我感觉应该.pth2不太对
+wR2Path = './wR2/wR2.pth24'  #我自己跑wR02.py  这个时 epochs=25，所以有 ./wR2/wR2.pth24
 use_gpu = torch.cuda.is_available()
 print (use_gpu)
 
