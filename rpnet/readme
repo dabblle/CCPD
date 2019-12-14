@@ -5,4 +5,4 @@
    自己跑wR02.py  时 epochs=25 所以生成 ./wR2/wR2.pth24
    故，代码中应该是wR2Path = './wR2/wR2.pth24
    
-![]https://github.com/dabblle/CCPD/blob/master/12.png
+![效果图](https://github.com/dabblle/CCPD/blob/master/12.png)
