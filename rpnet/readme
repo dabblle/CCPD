@@ -4,3 +4,4 @@
    猜想是rpnet.py 中的 wR2Path = './wR2/wR2.pth2  造成的。
    自己跑wR02.py  时 epochs=25 所以生成 ./wR2/wR2.pth24
    故，代码中应该是wR2Path = './wR2/wR2.pth24
+   
